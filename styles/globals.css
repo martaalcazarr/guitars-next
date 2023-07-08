@@ -34,3 +34,27 @@ main {
   color: var(--primary);
   margin: 5rem 0;
 }
+
+.nav{
+  margin-top: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .nav{
+      margin-top: 0;
+      flex-direction: row;
+  }
+}
+.nav a{
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: .5rem;
+  transition-property: background-color;
+  transition-duration: 300ms;
+  text-align: center;
+}

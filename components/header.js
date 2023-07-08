@@ -15,7 +15,7 @@ export default function Header() {
           </Link>
             
 
-            <nav className={styles.nav}>
+            <nav className="nav">
               <Link className={router.pathname === '/' ? styles.active : ''} href="/">
                 Main
                 </Link>
