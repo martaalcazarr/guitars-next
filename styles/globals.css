@@ -15,7 +15,7 @@ html {
 
 body {
   font-size: 2rem;
-  font-family: var(--fuente-principal);
+  font-family: var(--main-font);
   line-height: 1.5;
 }
 img {
