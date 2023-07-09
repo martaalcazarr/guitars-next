@@ -7,9 +7,9 @@ export default function Home() {
     <Layout
     title={'Index'}
     description={'Guitar Store and Blog'}>
-      <h1>Holi</h1>
+      <h1>index</h1>
 
-      <Link href="/about">About us</Link>
+      
       </Layout>
     </>
    
