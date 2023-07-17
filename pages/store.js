@@ -11,14 +11,14 @@ export default function Store({guitars}){
             <main className="container">
                 <h1 className="heading">Our collection</h1>
 
-                
-                {guitars?.map(guitar =>(
-                    <Guitar
-                    key={guitar.id}
-                    guitar={guitar.attributes}
-                    />
-                ) )}
-                
+                <div>
+                    {guitars?.map(guitar =>(
+                        <Guitar
+                        key={guitar.id}
+                        guitar={guitar.attributes}
+                        />
+                    ) )}
+                </div>
             </main>
         </Layout>
     )
