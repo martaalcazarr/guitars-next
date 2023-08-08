@@ -40,8 +40,8 @@ export default function Home({guitars, posts}) {
 }
 
 export async function getStaticProps() {
-  const urlGuitars = `${Lprocess.env.API_URL}/guitars?filters[url]={url}&populate=imagen`
-  const urlPosts = `${Lprocess.env.API_URL}/posts?filters[url]={url}&populate=imagen`
+  const urlGuitars = `${process.env.API_URL}/guitars?filters[url]={url}&populate=imagen`
+  const urlPosts = `${process.env.API_URL}/posts?filters[url]={url}&populate=imagen`
 
   const [resGuitars, resPosts] = await Promise.all([
     fetch(urlGuitars),
